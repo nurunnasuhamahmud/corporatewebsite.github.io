@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<title>Rumah Aman Children's Home</title>
+    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url(rumahamanheader.png);
+  width: 100%;
+  height: 70%;
+}
+div {
+background-image: url('giphy.gif');
+background-repeat:repeat;
+background-attachment: fixed;
+}
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->   
+    
+<div id="top" class="logo_thumb_placeholder">&nbsp;</div>    
+    
+<div class="w3-top">
+  <div class="w3-row w3-padding">
+    <div class="w3-col s3 w3-bar-block">
+      <a href="index.html" class="w3-button w3-block w3-teal"><i class="fa fa-gittip fa-fw w3-margin-right"></i>HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block w3-teal">ABOUT US</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="background.html" class="w3-button w3-block w3-teal">BACKGROUND &amp; HISTORY</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="gallery.html" class="w3-button w3-block w3-teal">GALLERY</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="donation.html" class="w3-button w3-block w3-teal">DONATION</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="address.html" class="w3-button w3-block w3-teal">ADDRESS &amp; MAP</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="activity.html" class="w3-button w3-block w3-teal">ACTIVITY</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="volunteer.html" class="w3-button w3-block w3-teal">VOLUNTEER</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Tel: 03-6038 1430</span>
+    <span class="w3-tag">Email: info@rumahaman.com</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-tag w3-text-white">Rumah Aman (Shah Alam)</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-white w3-normal w3-large">
+    
+  <h5 style="font-family: font-family:Book Antiqua; color: saddlebrown"><marquee scrolldelay="90"><img src="icon.png" width="3%">Welcome to Rumah Aman Children's Home<img src="icon.png" width="3%"></marquee></h5>
+
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+       
+      <center>
+      <h3 style="color: saddlebrown">They will ask you what they should give away.</h3>
+      <h3 style="color: saddlebrown">Say: "Any wealth you give away should go to your parents and relatives and to orphans and the very poor and travellers. Whatever good you do Allah knows it." (Al-Baqara, 215).</h3> 
+      <h3 style="color: saddlebrown"><b>Charity For The Pleasure Of Allah SWT.</b></h3>
+      </center>
+<br>    
+<div style="text-align:center"> 
+  <video id="video1" width="420">
+    <source src="openingofrumahaman.mp4" type="video/mp4">
+    <source src="mov_bbb.ogg" type="video/ogg">
+  </video>
+  <br><br>    
+<button class="w3-button w3-white w3-border w3-border-red" onclick="playPause()">Play/Pause</button> 
+  <button class="w3-button w3-white w3-border w3-border-red" onclick="makeBig()">Big</button>
+  <button class="w3-button w3-white w3-border w3-border-red" onclick="makeSmall()">Small</button>
+  <button class="w3-button w3-white w3-border w3-border-red" onclick="makeNormal()">Normal</button>  
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 560; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 420; 
+} 
+</script> 
+
+<p style="text-align: center; color: forestgreen">Sources: <a href="https://www.facebook.com/146332198716557/videos/378291736280552/" target="_blank">Video from Rumah Aman's FB</a>.</p>
+      
+      
+      
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">What Rumah Aman do?</span></h5>
+    <p>Rumah Aman strongly believes that children in an orphanage should not be treated any differently from one’s own. They deserve to live in a safe and loving environment with access to food, water, education and support.</p>
+      
+    <p>Their orphanage doesn’t just help orphaned children but also those in need, on a case by case basis. They make sure that every child in their care gets:</p>
+      
+    <ul>
+	<li>Clothing</li>
+	<li>Proper mentorship</li>
+	<li>Academic opportunities &amp; life training skills</li>
+    <li>Proper personal hygiene</li>
+	<li>A loving home</li>
+    <li>Fun</li>
+      </ul>  
+      
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Objective</span></h5>
+    <p>Providing a caring and loving home for children that are orphaned or from very poor or impoverished families. Rumah Aman provides not only a shelter, but a home and an education support program to monitor the progress of each individual child, in all aspect. Besides, Rumah Aman also provides assistance and support for orphans and children from the poor.</p>
+
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Mission</span></h5>
+    <p>To care for the orphans and needy only for the pleasure of Allah SWT, by providing them with a peaceful home, uplifting their Islamic characters and developing their competencies for education</p>
+      
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Vision</span></h5>
+    <p>To promote peace and fulfillment in the lives of the children and people who have deprived of a normal living environment due to unfortunate and unforeseen circumstances.  We base our vision upon the Quran and the Sunna of Prophet Muhammad s.a.w. (May Allah bless him and grant him peace).</p>
+      
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i></i></p>
+      <p style="color: crimson"><i>“Those who have iman and do right actions and establish salat and pay zakat, will have their reward with their Lord. They will feel no fear and will know no sorrow.”(Al-Quran, Surah Al-Baqara Verse 277)</i></p>
+    </div>
+      
+    
+    <center><img src="132188779_4265181253498277_7067247221510763791_o.jpg" class="w3-image w3-center" style="width:40%"></center>
+    
+      
+    <p>Any donations and contributions to Rumah Aman are very much welcomed and appreciated. Donate for your <ins>PARADISE</ins> today! ❤️ </p>  
+      
+    <p><strong>Rumah Aman's Opening Hours:</strong></p>
+      <ul>
+	<li>Monday	    (08:00 - 17:00)</li>
+	<li>Tuesday	    (09:00 - 17:00)</li>
+	<li>Wednesday	(09:00 - 17:00)</li>
+    <li>Thursday	(09:00 - 17:00)</li>
+	<li>Friday	    (08:00 - 17:00)</li>
+    <li>Sarurday	(Closed)</li>
+	<li>Sunday	    (Closed)</li>
+      </ul>
+      
+    <p><strong>Address:</strong> 51, Jalan Seroja 1/1 Sungai Buloh Country Resort. 47000 Sungai Buloh, Selangor Darul Ehsan, Malaysia.</p>
+      
+    <center><p><button class="w3-button w3-green w3-round-xxlarge" onclick ="document.location='donation.html'">DONATE HERE!</button></p></center>  
+      
+     
+      <h5 class="w3-center w3-padding-64">You can find more information about Rumah Aman here:<a href="https://www.rumahaman.com/"><ins><p style="color: forestgreen">Rumah Aman Children's Home</ins></a></h5> 
+      
+  </div>
+</div>
+
+<!-- Menu Container -->
+
+    </div>
+        
+<!-- Contact/Area Container -->
+
+<!-- End page content -->
+	<br>
+    <center>
+    <button class="w3-btn w3-white w3-border w3-border-blue w3-round-large" onclick ="document.location='#top'">Back to Top</button>
+    </center>
+    <br><br>
+<!-- Footer -->
+    
+<footer class="w3-center w3-teal w3-padding-48 w3-large">
+    <p style="text-align:center; font-size:15px;">Copyright © 2021. All Rights Reserved.</p>
+    <p style="text-align:center; font-size:15px;">Designed by <a href="aboutme.html"><ins>Khaleeda Rachel Nurun.</ins></a> This website is not an official website of <a href="https://www.rumahaman.com/"><ins>Rumah Aman Children's Home Malaysia.</ins></a> Resolution 1108 x 1228. Last update: 11<sup>th</sup> January 2021. <br>This site is for assignment purposes only. </p>
+</footer>
+
+    
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+function myFunction() {
+  var x = document.getElementById("myAudio").autoplay;
+  document.getElementById("demo").innerHTML = x;
+}    
+    
+    
+    
+</script>
+
+
+</body>
+</html>
